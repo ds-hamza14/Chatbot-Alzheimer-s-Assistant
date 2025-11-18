@@ -1,0 +1,28 @@
+.disclaimer{
+    height: 440px;
+}
+.disclaimer h2{
+    color:darkblue;
+}
+
+
+.para {
+      font-family: 'Poppins', sans-serif;
+      /* font-weight: bolder; */
+      align-items: center;
+      color:steelblue;
+}
+.flower img{
+    width: 200px;
+    height: 200px;
+    animation: roll 5s linear infinite;
+}
+
+@keyframes roll {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

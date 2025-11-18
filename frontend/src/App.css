@@ -1,0 +1,69 @@
+/* Global app container */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background: #f5f6fa;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Header */
+.app-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.app-header h1 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #4a6cf7;
+  margin-bottom: 6px;
+}
+
+.app-header p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Start screen */
+.start-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  width: 100%;
+  max-width: 420px;
+}
+
+/* Start button */
+.start-btn {
+  background: #4a6cf7;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 16px;
+  transition: background 0.2s ease;
+}
+
+.start-btn:hover {
+  background: #3b55d9;
+}
+
+/* Disclaimer section */
+.disclaimer {
+  font-size: 12px;
+  color: #777;
+  text-align: center;
+  line-height: 1.4;
+  max-width: 300px;
+}
